@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Nasabah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>♻ Setor Sampah</h2>
+
+    <input type="text" id="nama" placeholder="Nama Nasabah">
+
+    <select id="jenis">
+        <option value="Plastik">Plastik</option>
+        <option value="Kertas">Kertas</option>
+        <option value="Logam">Logam</option>
+    </select>
+
+    <input type="number" id="berat" placeholder="Berat (Kg)">
+
+    <button onclick="setor()">Setor Sampah</button>
+
+    <a href="edukasi.html">📘 Edukasi Sampah</a>
+    <a href="tips.html">💡 Tips Memilah Sampah</a>
+    <a href="login.html" onclick="logout()">🚪 Logout</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
